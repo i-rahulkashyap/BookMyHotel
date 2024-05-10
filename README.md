@@ -20,24 +20,24 @@ Please ensure these are installed on your system.
 
 Copy the sample configuration file and edit it to match your configuration:
 
-```bash
+
 cp config/database.yml.sample config/database.yml
 
 * **Database creation**
 
-```markdown
+
 To create the database, run:
 
-```bash
+
 rails db:create
 
 
 * **Database initialization**
 
-```markdown
+
 To initialize the database (create tables, etc.), run:
 
-```bash
+
 rails db:migrate
 
 * How to run the test suite
